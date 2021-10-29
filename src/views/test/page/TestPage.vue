@@ -18,6 +18,10 @@
       <el-table-column prop="createdTime" label="创建时间" align="center"></el-table-column>
     </el-table>
 
+    <el-select>
+      <el-option>123</el-option>
+    </el-select>
+
     <!-- 分页 -->
     <Page @pageChange="pageChange"
           :pageSize="pageSize"
