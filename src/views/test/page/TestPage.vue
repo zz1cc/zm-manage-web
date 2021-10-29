@@ -1,5 +1,10 @@
 <template>
   <div class="" style="border-color: #ccc">
+
+    <el-select>
+      <el-option>aaa</el-option>
+    </el-select>
+
     <!-- 数据表格 -->
     <el-table
       style="width: 100%;"
@@ -17,6 +22,7 @@
       <el-table-column prop="mobile" label="手机号" width="200" align="center" show-overflow-tooltip></el-table-column>
       <el-table-column prop="createdTime" label="创建时间" align="center"></el-table-column>
     </el-table>
+    
 
     <!-- 分页 -->
     <Page @pageChange="pageChange"

@@ -55,7 +55,7 @@
           children: 'children',
           label: 'name'
         },
-        defaultCheckedList: [],
+        defaultChecadminkedList: [],
         addOrUpdateRoleForm: {
           name: '',
           sort: '',

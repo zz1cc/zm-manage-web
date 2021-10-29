@@ -162,6 +162,7 @@
     methods: {
       //每生成一个节点都会调动
       normalizer (node) {
+        console.log(node)
         if(!node.children || node.children.length==0){
           delete node.children;
         }
