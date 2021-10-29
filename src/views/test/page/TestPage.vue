@@ -2,8 +2,9 @@
   <div class="" style="border-color: #ccc">
 
     <el-select>
-      <el-option>aaa</el-option>
-      <el-option>cca</el-option>
+      <el-option>嘎嘎</el-option>
+      <el-option>嘎嘎</el-option>
+      <el-option>嘎嘎</el-option>
     </el-select>
 
     <!-- 数据表格 -->
@@ -31,7 +32,7 @@
 
     <!-- 分页 -->
     <Page @pageChange="pageChange"
-          :pageSize="pageSize"
+          :pageSize="pageSize111"
           :pageSizeList="pageSizeList"
           :total="total">
     </Page>
